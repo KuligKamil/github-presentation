@@ -23,3 +23,13 @@ jobs:
       run: npm i -g @slidev/cli
     - name: Run Playwright Build PDF
       run: slidev export --dark
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: dist-without-markdown
+        path: .
+    - name: Archive code coverage results
+      uses: actions/upload-artifact@v3
+      with:
+        name: code-coverage-report
+        path: ./presentation.pdf
