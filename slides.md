@@ -38,11 +38,12 @@ layout: two-cols
 * about me
 * github definition
 * good deal, microsoft
-* command line
-* actions, pages, blog
+* markdown power, readme
+* issues, discussions
 * command palette
-* merge queue
-* project planning
+* actions + pages = blog
+* command line
+* codeowners
 * jira + github, smart commits
 * universe 2022
 
@@ -50,9 +51,6 @@ layout: two-cols
 </v-clicks>
 
 ---
-
-# about me
----
 layout: two-cols
 ---
 
@@ -60,23 +58,21 @@ layout: two-cols
 
 <v-clicks>
 
-* team leader
-* fullstack developer 
-* python & typescript lover 
-* eternal optimist
-* romantic programmer
-* sport freak 
+* team leader 
+* fullstack developer 👨‍💻
+* python & typescript lover 🐍
+* eternal optimist 😎
+* romantic programmer 🌹
+* sport freak ⚽️🏀🏈🥊
 
 
 </v-clicks>
 
 ::right::
+<div v-click="1">
 
 ![img_3.gif](images/beer.gif)
-
----
-
-# git 
+</div>
 
 ---
 layout: two-cols
@@ -84,25 +80,33 @@ layout: two-cols
 
 # git
 
-<v-clicks>
+<div v-click="1">
 
  Popular, free and open source distributed version control system (VCS) designed to handle everything from small to very large projects with speed and efficiency.
 
+</div>
+
+<div v-click="3">
+
 ![img_3.gif](images/guineapig.jpg)
 
-</v-clicks>
+</div>
 
 ::right::
 
 # github
 
-<v-clicks>
 
+<div v-click="2">
 Free service hosting for software development and version control using Git.
+</div>
+
+<div v-click="4">
 
 ![img_3.gif](images/instagram.jpg)
 
-</v-clicks>
+</div>
+
 
 ---
 layout: two-cols
@@ -128,10 +132,62 @@ what about us developers?
 
 ::right:: 
 
+<v-clicks>
+
 ![aaa.gif](images/cry.gif)
 
+WHY I WAS SO WORRIED?
+
+</v-clicks>
+---
+layout: center
+---
+
+# markdown power
+
+![images/power.jpeg](images/power.jpeg)
 
 
+1. [Code](#code)
+2. [Task lists](#task-lists)
+3. [Hide details](#hide-details)
+4. [Badges](#badges)
+5. [Jokes](#jokes)
+   
+---
+layout: two-cols
+---
+# issues, discussions, wiki
+
+<v-clicks>
+ 
+Track ideas, discussions, documentation, feedback, tasks, or bugs for work on GitHub.
+
+All project staff in one place
+
+Reason why I love github. 
+
+I hate Jira. https://ifuckinghatejira.com/
+
+https://github.com/features/issues
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+Easy to create:
+
+Command line
+
+Website
+
+Command pallete
+ 
+Mobile 😢
+
+</v-clicks>
 
 ---
 layout: two-cols
@@ -153,44 +209,28 @@ layout: two-cols
 
 ::right::
 
+<v-clicks>
+
 https://cli.github.com/
 
 https://cli.github.com/manual/gh
 
 
-
-
-
-
-
----
-layout: two-cols
----
-
-# actions, pages, blog
-
-<v-clicks>
-
-https://kuligkamil.github.io/
-
-https://chadbaldwin.net/2021/03/14/how-to-build-a-sql-blog.html
-
-https://github.com/features/actions
-
-https://pages.github.com/
-
 </v-clicks>
-
-
-::right::
-
 ---
 layout: two-cols
 ---
 
-#  command palette
+# command palette
+
+It is a user interface (UI) element that gives users quick access to many commands. 
+It's usually a free-form input field that helps users find an action by narrowing down a list, based on what they type.
 
 <v-clicks>
+
+Fast navigation
+  
+Easy access to commands
 
 https://github.blog/changelog/2021-10-27-command-palette-beta/
 
@@ -199,32 +239,94 @@ https://github.blog/changelog/2021-10-27-command-palette-beta/
 
 
 ::right::
+<v-clicks>
+
+![](images/command-palette-navigation-repo-default.png)
+
+</v-clicks>
+
+
 ---
 layout: two-cols
 ---
 
-# merge queue
+# actions + pages = blog
+
+## Github Actions
+
+GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline.
 
 <v-clicks>
 
-https://github.blog/changelog/2021-10-27-pull-request-merge-queue-limited-beta
+* Run a workflow on any GitHub event
+* Linux, macOS, Windows, ARM, and containers
+* Any language
+* Easy to use 
+* Readable
 
 </v-clicks>
+
+::right::
+
+<v-clicks>
+
+https://github.com/features/actions
+
+</v-clicks>
+
+---
+layout: two-cols
+---
+
+# actions + pages = blog
+## Github Pages
+
+<v-clicks>
+
+GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
+
+</v-clicks>
+
+
+::right::
+
+https://pages.github.com/
 
 ---
 layout: center
 ---
 
+# actions + pages = blog
 
-# project planning
 
-<Youtube id="o1wuW24Nv4E"  scale="0.65"/>
+<v-clicks>
+
+
+https://chadbaldwin.net/2021/03/14/how-to-build-a-sql-blog.html
+
+https://kuligkamil.github.io/
+
+
+
+</v-clicks>
+
+
+---
+layout: center
+---
+# code owners
+
+## automaticly add person to code review
+
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#example-of-a-codeowners-file
 
 ---
 layout: center
 ---
 
 # jira + github, smart commits
+
+https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests
 
 https://support.atlassian.com/jira-software-cloud/docs/process-issues-with-smart-commits/
 
@@ -236,6 +338,9 @@ layout: center
 
 # github universe 2022
 
-https://githubuniverse.com/events/detail/on-site-schedule
+https://www.youtube.com/watch?v=AYRxDoUxcfQ&t=2s&ab_channel=GitHub
 
-https://register.githubuniverse.com/
+Copilot = Your AI pair programmer. 
+
+Voice control XD 
+<!-- awesome I don't need colleages -->

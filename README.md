@@ -5,11 +5,23 @@
 ## Table of Contents
 
 1. [Code](#code)
-2. [Hide details](#hide-details)
-3. [Badges](#badges)
-4. [Jokes](#jokes)
+2. [Task lists](#task-lists)
+3. [Hide details](#hide-details)
+4. [Badges](#badges)
+5. [Jokes](#jokes)
+   
 
 ## Code
+
+```python
+    text = ('Amazing '
+            'Text '
+            'For '
+            'Presentation'
+    )
+```
+
+## Task lists
 
 Task lists
 
@@ -40,6 +52,9 @@ https://gist.github.com/tterb/982ae14a9307b80117dbf49f624ce0e8
 ## Jokes
 
 <img src="https://readme-jokes.vercel.app/api?hideBorder" alt="Jokes Card" />
+
+
+WHOLE PRESENTATION IS CREATED IN MARKDOWN and <sup><sub>slidev</sub></sup>
 
 ## Github Presentation
 Presentation tool: [Slidev](https://github.com/slidevjs/slidev)!
